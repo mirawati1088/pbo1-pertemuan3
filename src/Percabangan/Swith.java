@@ -2,22 +2,24 @@ package Percabangan;
 
 public class Swith {
     public static void main(String[] args) {
-        int jalanJalan=3;
-        switch (jalanJalan){
-            case 1:
-                System.out.println("Qmall");
+       char nilai='D';
+        switch (nilai){
+            case 'A':
+                System.out.println("Mhs: \"Terimakasi Pak\"");
+                System.out.println("DoseN : \"Selamat Ya\"");
                 break;
-            case 2:
-                System.out.println("Maunjun");
+            case 'B':
+                System.out.println("Mhs  :\"kenapa ulun dapat C ,pak??\"");
+                System.out.println("Dosen :\" karena e karena\"");
                 break;
-            case 3:
-                System.out.println("Pengantinan mantan");
+            case 'C':
+                System.out.println("Mhs : \"uln sekali kada ngumpul tugas pak\"");
+                System.out.println("Dosen :\"itu lah akibatnya,huhu!!!\"");
                 break;
-            case 4:
-                System.out.println("pahumaan cari kodok");
-                break;
+
             default:
-                System.out.println("pasar");
+                System.out.println("Mhs : \"ulun rekos lah pak,,,\"");
+                System.out.println("Dosen :\"Silah kan mba ,lebih rajin!!!\"");
                 break;
         }
     }
